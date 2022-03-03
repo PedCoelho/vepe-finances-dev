@@ -1,0 +1,16 @@
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+body {
+  margin: unset;
+  height: 100vh;
+  min-height: stretch;
+  background-color: var(--color-page-background);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.snack-error {
+  background: var(--color-danger);
+}
